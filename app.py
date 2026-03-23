@@ -1,8 +1,14 @@
-from flask import Flask, render_template, request, jsonify
+from flask import Flask, render_template, request, jsonify, Response
 import json
 import os
+import threading
+import queue
 
 app = Flask(__name__)
+
+# ── Scan state ────────────────────────────────────────────────────────────────
+_scan_lock   = threading.Lock()
+_scan_state  = {"running": False, "log": [], "new": 0, "total": 0, "error": None}
 
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 CONFIG_FILE = os.path.join(BASE_DIR, "config.json")
@@ -59,6 +65,38 @@ def update_jobs():
         return jsonify({"error": "Invalid JSON"}), 400
     save_json(JOBS_FILE, data)
     return jsonify({"status": "saved"})
+
+
+@app.route("/api/scan", methods=["POST"])
+def start_scan():
+    with _scan_lock:
+        if _scan_state["running"]:
+            return jsonify({"error": "Scan already in progress"}), 409
+        _scan_state.update({"running": True, "log": [], "new": 0, "total": 0, "error": None})
+
+    def _run():
+        from scanner import run_scan
+
+        def _log(msg):
+            with _scan_lock:
+                _scan_state["log"].append(msg)
+
+        try:
+            new_count, total = run_scan(_log)
+            with _scan_lock:
+                _scan_state.update({"running": False, "new": new_count, "total": total})
+        except Exception as exc:
+            with _scan_lock:
+                _scan_state.update({"running": False, "error": str(exc)})
+
+    threading.Thread(target=_run, daemon=True).start()
+    return jsonify({"status": "started"})
+
+
+@app.route("/api/scan/status", methods=["GET"])
+def scan_status():
+    with _scan_lock:
+        return jsonify(dict(_scan_state))
 
 
 if __name__ == "__main__":

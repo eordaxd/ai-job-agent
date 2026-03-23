@@ -428,6 +428,63 @@
     }
     .btn-link:hover { background: rgba(108,99,255,0.3); }
 
+    /* Scan progress banner */
+    #scanBanner {
+      display: none;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: var(--radius);
+      padding: 16px 20px;
+      margin-bottom: 16px;
+      animation: fadeIn 0.3s ease;
+    }
+    #scanBanner.visible { display: block; }
+
+    .scan-banner-top {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 10px;
+    }
+
+    .scan-banner-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    .spinner {
+      width: 16px;
+      height: 16px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+      flex-shrink: 0;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .scan-log {
+      background: var(--bg);
+      border-radius: var(--radius-sm);
+      padding: 10px 14px;
+      font-size: 12px;
+      font-family: monospace;
+      color: var(--muted);
+      max-height: 120px;
+      overflow-y: auto;
+      display: flex;
+      flex-direction: column;
+      gap: 3px;
+    }
+
+    .scan-log-line { color: var(--text); }
+    .scan-log-line.done { color: var(--accent2); font-weight: 600; }
+    .scan-log-line.err  { color: var(--accent3); }
+
     .empty-state {
       text-align: center;
       padding: 60px 20px;
@@ -598,7 +655,19 @@
       </div>
       <div style="display:flex;gap:8px;">
         <button class="btn btn-outline" onclick="loadJobs()">↻ Refresh</button>
+        <button class="btn btn-success" id="scanBtn" onclick="startScan()">⚡ Scan Now</button>
       </div>
+    </div>
+
+    <!-- Progress banner (shown while scanning) -->
+    <div id="scanBanner">
+      <div class="scan-banner-top">
+        <div class="scan-banner-title">
+          <div class="spinner" id="scanSpinner"></div>
+          <span id="scanBannerTitle">Scanning job boards...</span>
+        </div>
+      </div>
+      <div class="scan-log" id="scanLog"></div>
     </div>
 
     <div class="jobs-filter" id="companyFilter"></div>
@@ -795,6 +864,92 @@
         </div>
       </div>
     `).join("");
+  }
+
+  // ── Scan Now ──────────────────────────────────────────────
+  let _scanPoll = null;
+  let _lastLogCount = 0;
+
+  async function startScan() {
+    const btn = document.getElementById("scanBtn");
+    btn.disabled = true;
+    btn.textContent = "Scanning...";
+
+    _lastLogCount = 0;
+    document.getElementById("scanLog").innerHTML = "";
+    document.getElementById("scanBannerTitle").textContent = "Scanning job boards...";
+    document.getElementById("scanSpinner").style.display = "";
+    document.getElementById("scanBanner").classList.add("visible");
+
+    try {
+      const res = await fetch("/api/scan", { method: "POST" });
+      if (!res.ok) {
+        const err = await res.json();
+        if (err.error === "Scan already in progress") {
+          showToast("A scan is already running");
+          btn.disabled = false;
+          btn.textContent = "⚡ Scan Now";
+          return;
+        }
+      }
+    } catch (e) {
+      showToast("Failed to start scan");
+      btn.disabled = false;
+      btn.textContent = "⚡ Scan Now";
+      return;
+    }
+
+    _scanPoll = setInterval(pollScan, 1200);
+  }
+
+  async function pollScan() {
+    try {
+      const res  = await fetch("/api/scan/status");
+      const data = await res.json();
+      const log  = document.getElementById("scanLog");
+
+      // Append new log lines
+      const lines = data.log || [];
+      for (let i = _lastLogCount; i < lines.length; i++) {
+        const el = document.createElement("div");
+        el.className = "scan-log-line";
+        el.textContent = lines[i];
+        log.appendChild(el);
+        log.scrollTop = log.scrollHeight;
+      }
+      _lastLogCount = lines.length;
+
+      if (!data.running) {
+        clearInterval(_scanPoll);
+        _scanPoll = null;
+
+        const btn = document.getElementById("scanBtn");
+        btn.disabled = false;
+        btn.textContent = "⚡ Scan Now";
+        document.getElementById("scanSpinner").style.display = "none";
+
+        if (data.error) {
+          document.getElementById("scanBannerTitle").textContent = "Scan failed";
+          const el = document.createElement("div");
+          el.className = "scan-log-line err";
+          el.textContent = "Error: " + data.error;
+          log.appendChild(el);
+          showToast("Scan failed — see log");
+        } else {
+          document.getElementById("scanBannerTitle").textContent =
+            `Scan complete — ${data.new} new jobs found (${data.total} total)`;
+          const el = document.createElement("div");
+          el.className = "scan-log-line done";
+          el.textContent = `✓ ${data.new} new jobs added · ${data.total} total in database`;
+          log.appendChild(el);
+          log.scrollTop = log.scrollHeight;
+          showToast(`✓ Scan done — ${data.new} new jobs`);
+          loadJobs();
+        }
+      }
+    } catch (e) {
+      // network hiccup — keep polling
+    }
   }
 
   // ── Settings ───────────────────────────────────────────────
