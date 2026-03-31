@@ -1,4 +1,1148 @@
 {
-  "last_scan": null,
-  "jobs": []
+  "last_scan": "2026-03-23T14:06:38",
+  "jobs": [
+    {
+      "id": "nvidia-inception-community-manager-490b9f",
+      "title": "Inception Community Manager",
+      "company": "NVIDIA",
+      "location": "Australia, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Australia-Remote/Inception-Community-Manager_JR2012914",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nvidia-gsi-client-manager-5bbaf5",
+      "title": "GSI Client Manager",
+      "company": "NVIDIA",
+      "location": "UK, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/UK-Remote/GSI-Client-Manager_JR2014412",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nvidia-nvidia-brev-sales-account-manager-32b8af",
+      "title": "NVIDIA Brev Sales Account Manager",
+      "company": "NVIDIA",
+      "location": "US, FL, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-FL-Remote/NVIDIA-Brev-Sales-Account-Manager_JR2013484-1",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nvidia-senior-account-manager-canada-wwfo-328d5f",
+      "title": "Senior Account Manager, Canada - WWFO",
+      "company": "NVIDIA",
+      "location": "Canada, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/Canada-Remote/Senior-Account-Manager--Canada---WWFO_JR2014477",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nvidia-senior-account-manager-rtx-raytheon-8b81a4",
+      "title": "Senior Account Manager \u2013 RTX Raytheon",
+      "company": "NVIDIA",
+      "location": "US, DC, Remote",
+      "url": "https://nvidia.wd5.myworkdayjobs.com/en-US/NVIDIAExternalCareerSite/job/US-DC-Remote/Senior-Account-Manager---RTX-Raytheon_JR2013148",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-strategic-partner-manager-youtube-shopping-english-sp-790c1b",
+      "title": "Strategic Partner Manager, YouTube Shopping (English, Spanish)",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/strategic-partner-manager-youtube-shopping-english-spanish-at-google-4387338360",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-technical-account-manager-google-cloud-consulting-eng-aa3f27",
+      "title": "Technical Account Manager, Google Cloud Consulting (English)",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/technical-account-manager-google-cloud-consulting-english-at-google-4374615773",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-technical-program-manager-project-controls-27c912",
+      "title": "Technical Program Manager, Project Controls",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/technical-program-manager-project-controls-at-google-4379437570",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-integration-engineer-google-cloud-c533a0",
+      "title": "Integration Engineer, Google Cloud",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/integration-engineer-google-cloud-at-google-4379657346",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-ai-sales-specialist-7bdb2c",
+      "title": "AI Sales Specialist",
+      "company": "Google",
+      "location": "Gurugram, Haryana, India",
+      "url": "https://in.linkedin.com/jobs/view/ai-sales-specialist-at-google-4377275579",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-ai-sales-specialist-generative-media-ai-google-cloud-3093d8",
+      "title": "AI Sales Specialist, Generative Media AI, Google Cloud",
+      "company": "Google",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/ai-sales-specialist-generative-media-ai-google-cloud-at-google-4373315872",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-ai-sales-specialist-gaming-google-cloud-269a7a",
+      "title": "AI Sales Specialist, Gaming, Google Cloud",
+      "company": "Google",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/ai-sales-specialist-gaming-google-cloud-at-google-4372510761",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-ai-sales-specialist-us-north-google-cloud-1f88db",
+      "title": "AI Sales Specialist, US North, Google Cloud",
+      "company": "Google",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/ai-sales-specialist-us-north-google-cloud-at-google-4379662239",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-ai-sales-specialist-google-cloud-99f6fe",
+      "title": "AI Sales Specialist, Google Cloud",
+      "company": "Google",
+      "location": "Mumbai, Maharashtra, India",
+      "url": "https://in.linkedin.com/jobs/view/ai-sales-specialist-google-cloud-at-google-4373365516",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-growth-manager-7da09e",
+      "title": "Growth Manager",
+      "company": "Google",
+      "location": "Gurgaon, Haryana, India",
+      "url": "https://in.linkedin.com/jobs/view/growth-manager-at-google-4382895043",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-ai-sales-specialist-iii-google-cloud-d0eb3b",
+      "title": "AI Sales Specialist III, Google Cloud",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/ai-sales-specialist-iii-google-cloud-at-google-4381043643",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-gemini-enterprise-customer-experience-sales-specialis-1bafea",
+      "title": "Gemini Enterprise Customer Experience Sales Specialist, Google Cloud",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/gemini-enterprise-customer-experience-sales-specialist-google-cloud-at-google-4379478403",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-associate-product-marketing-manager-spanish-english-e99350",
+      "title": "Associate Product Marketing Manager (Spanish, English)",
+      "company": "Google",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/associate-product-marketing-manager-spanish-english-at-google-4371763764",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-account-executive-new-business-sales-google-customer--323f93",
+      "title": "Account Executive, New Business Sales, Google Customer Solutions",
+      "company": "Google",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/account-executive-new-business-sales-google-customer-solutions-at-google-4379694363",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-business-development-consultant-new-business-sales-en-b11f65",
+      "title": "Business Development Consultant, New Business Sales (English)",
+      "company": "Google",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/business-development-consultant-new-business-sales-english-at-google-4373366457",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-customer-growth-associate-google-customer-solutions-e-4aa539",
+      "title": "Customer Growth Associate, Google Customer Solutions (English)",
+      "company": "Google",
+      "location": "New York, NY",
+      "url": "https://www.linkedin.com/jobs/view/customer-growth-associate-google-customer-solutions-english-at-google-4365583250",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-account-strategist-small-business-sales-google-custom-70f038",
+      "title": "Account Strategist, Small Business Sales, Google Customer Solutions",
+      "company": "Google",
+      "location": "Los Angeles, CA",
+      "url": "https://www.linkedin.com/jobs/view/account-strategist-small-business-sales-google-customer-solutions-at-google-4387388967",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-business-development-consultant-new-business-sales-en-8134b3",
+      "title": "Business Development Consultant, New Business Sales (English, Hindi)",
+      "company": "Google",
+      "location": "Gurugram, Haryana, India",
+      "url": "https://in.linkedin.com/jobs/view/business-development-consultant-new-business-sales-english-hindi-at-google-4365589173",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-account-manager-small-and-medium-businesses-google-cl-b49855",
+      "title": "Account Manager, Small and Medium Businesses, Google Cloud",
+      "company": "Google",
+      "location": "Austin, TX",
+      "url": "https://www.linkedin.com/jobs/view/account-manager-small-and-medium-businesses-google-cloud-at-google-4374065582",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-key-account-executive-south-google-cloud-a1cf98",
+      "title": "Key Account Executive, South, Google Cloud",
+      "company": "Google",
+      "location": "Georgia, United States",
+      "url": "https://www.linkedin.com/jobs/view/key-account-executive-south-google-cloud-at-google-4381817618",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "google-performance-specialist-large-customer-sales-7952a7",
+      "title": "Performance Specialist, Large Customer Sales",
+      "company": "Google",
+      "location": "Singapore",
+      "url": "https://sg.linkedin.com/jobs/view/performance-specialist-large-customer-sales-at-google-4374615782",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-cloud-solution-architect-cloud-amp-ai-7bfc9b",
+      "title": "Cloud Solution Architect (Cloud &amp; AI)",
+      "company": "Microsoft",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/cloud-solution-architect-cloud-ai-at-microsoft-4388286541",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-digital-solution-area-specialist-security-dach-1dc42c",
+      "title": "Digital Solution Area Specialist - Security DACH",
+      "company": "Microsoft",
+      "location": "Barcelona, Catalonia, Spain",
+      "url": "https://es.linkedin.com/jobs/view/digital-solution-area-specialist-security-dach-at-microsoft-4328451405",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-software-engineer-2a1e18",
+      "title": "Software Engineer",
+      "company": "Microsoft",
+      "location": "Barcelona, Catalonia, Spain",
+      "url": "https://es.linkedin.com/jobs/view/software-engineer-at-microsoft-4371859201",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-senior-customer-success-account-manager-public-sec-762329",
+      "title": "Senior Customer Success Account Manager (Public Sector)",
+      "company": "Microsoft",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/senior-customer-success-account-manager-public-sector-at-microsoft-4388285582",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-data-center-technicians-intern-191a10",
+      "title": "Data Center Technicians Intern",
+      "company": "Microsoft",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/data-center-technicians-intern-at-microsoft-4384357141",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-frontend-software-engineer-2-a5ac37",
+      "title": "Frontend Software Engineer 2",
+      "company": "Microsoft",
+      "location": "Spain",
+      "url": "https://es.linkedin.com/jobs/view/frontend-software-engineer-2-at-microsoft-4380313801",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-senior-applied-scientist-40d139",
+      "title": "Senior Applied Scientist",
+      "company": "Microsoft",
+      "location": "Barcelona, Catalonia, Spain",
+      "url": "https://es.linkedin.com/jobs/view/senior-applied-scientist-at-microsoft-4387292644",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-software-engineer-2-data-science-d51cb6",
+      "title": "Software Engineer  2 - Data Science",
+      "company": "Microsoft",
+      "location": "Spain",
+      "url": "https://es.linkedin.com/jobs/view/software-engineer-2-data-science-at-microsoft-4380314781",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-logistics-technician-8dfa5d",
+      "title": "Logistics Technician",
+      "company": "Microsoft",
+      "location": "Madrid, Community of Madrid, Spain",
+      "url": "https://es.linkedin.com/jobs/view/logistics-technician-at-microsoft-4386352294",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-senior-software-engineer-data-science-c2d98c",
+      "title": "Senior Software Engineer - Data Science",
+      "company": "Microsoft",
+      "location": "Spain",
+      "url": "https://es.linkedin.com/jobs/view/senior-software-engineer-data-science-at-microsoft-4387471367",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-consultant-ai-business-solutions-65fb9f",
+      "title": "Consultant, AI Business Solutions",
+      "company": "Microsoft",
+      "location": "Hyderabad, Telangana, India",
+      "url": "https://in.linkedin.com/jobs/view/consultant-ai-business-solutions-at-microsoft-4366861080",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-director-of-global-growth-strategy-and-operations-344463",
+      "title": "Director of Global Growth Strategy and Operations",
+      "company": "Microsoft",
+      "location": "Redmond, WA",
+      "url": "https://www.linkedin.com/jobs/view/director-of-global-growth-strategy-and-operations-at-microsoft-4378350244",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-digital-solution-area-specialist-534ef0",
+      "title": "Digital Solution Area Specialist",
+      "company": "Microsoft",
+      "location": "Johannesburg, Gauteng, South Africa",
+      "url": "https://za.linkedin.com/jobs/view/digital-solution-area-specialist-at-microsoft-4386900494",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-digital-specialist-cloud-amp-ai-2313fa",
+      "title": "Digital Specialist - Cloud &amp; AI",
+      "company": "Microsoft",
+      "location": "Hong Kong SAR",
+      "url": "https://hk.linkedin.com/jobs/view/digital-specialist-cloud-ai-at-microsoft-4366861083",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-business-manager-b18a68",
+      "title": "Business Manager",
+      "company": "Microsoft",
+      "location": "Noida, Uttar Pradesh, India",
+      "url": "https://in.linkedin.com/jobs/view/business-manager-at-microsoft-4378778254",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-ai-business-solution-consultant-f5b5d1",
+      "title": "AI Business Solution Consultant",
+      "company": "Microsoft",
+      "location": "Taiwan",
+      "url": "https://tw.linkedin.com/jobs/view/ai-business-solution-consultant-at-microsoft-4387818981",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-early-in-profession-recruiter-b50296",
+      "title": "Early in Profession Recruiter",
+      "company": "Microsoft",
+      "location": "Bengaluru, Karnataka, India",
+      "url": "https://in.linkedin.com/jobs/view/early-in-profession-recruiter-at-microsoft-4386976194",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-director-ai-strategy-480649",
+      "title": "Director - AI Strategy",
+      "company": "Microsoft",
+      "location": "Redmond, WA",
+      "url": "https://www.linkedin.com/jobs/view/director-ai-strategy-at-microsoft-4342188603",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-cloud-amp-ai-platforms-digital-sales-solution-spec-bd2f5f",
+      "title": "Cloud &amp; AI Platforms Digital Sales Solution Specialist",
+      "company": "Microsoft",
+      "location": "Auckland, Auckland, New Zealand",
+      "url": "https://nz.linkedin.com/jobs/view/cloud-ai-platforms-digital-sales-solution-specialist-at-microsoft-4375158587",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-sales-specialist-cloud-amp-ai-platforms-eadb2a",
+      "title": "Sales Specialist-Cloud &amp; AI Platforms",
+      "company": "Microsoft",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/sales-specialist-cloud-ai-platforms-at-microsoft-4382381575",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-sales-specialist-workforce-ai-fb6fe0",
+      "title": "Sales Specialist - Workforce AI",
+      "company": "Microsoft",
+      "location": "United States",
+      "url": "https://www.linkedin.com/jobs/view/sales-specialist-workforce-ai-at-microsoft-4380333478",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-account-manager-ee40db",
+      "title": "Account Manager",
+      "company": "Microsoft",
+      "location": "New York, United States",
+      "url": "https://www.linkedin.com/jobs/view/account-manager-at-microsoft-4378342417",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "microsoft-head-of-specialist-sales-stu-philippines-a00c0b",
+      "title": "Head of Specialist Sales (STU), Philippines",
+      "company": "Microsoft",
+      "location": "Philippines",
+      "url": "https://ph.linkedin.com/jobs/view/head-of-specialist-sales-stu-philippines-at-microsoft-4346247793",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "openai-sales-manager-life-sciences-280df4",
+      "title": "Sales Manager, Life Sciences",
+      "company": "OpenAI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/sales-manager-life-sciences-at-openai-4372630833",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "openai-head-of-startups-gtm-apac-3d7448",
+      "title": "Head of Startups GTM, APAC",
+      "company": "OpenAI",
+      "location": "Singapore",
+      "url": "https://sg.linkedin.com/jobs/view/head-of-startups-gtm-apac-at-openai-4374256740",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "openai-emea-sales-strategy-amp-operations-leader-d82f56",
+      "title": "EMEA Sales Strategy &amp; Operations Leader",
+      "company": "OpenAI",
+      "location": "Dublin, County Dublin, Ireland",
+      "url": "https://ie.linkedin.com/jobs/view/emea-sales-strategy-operations-leader-at-openai-4382715799",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "openai-data-scientist-support-c7495f",
+      "title": "Data Scientist, Support",
+      "company": "OpenAI",
+      "location": "San Francisco, CA",
+      "url": "https://www.linkedin.com/jobs/view/data-scientist-support-at-openai-4313812386",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "openai-sales-lead-mid-market-enterprise-apac-df2424",
+      "title": "Sales Lead, Mid-Market Enterprise | APAC",
+      "company": "OpenAI",
+      "location": "Singapore",
+      "url": "https://sg.linkedin.com/jobs/view/sales-lead-mid-market-enterprise-apac-at-openai-4364734734",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "openai-sales-manager-enterprise-australia-amp-new-zealand-25f953",
+      "title": "Sales Manager, Enterprise - Australia &amp; New Zealand",
+      "company": "OpenAI",
+      "location": "Sydney, New South Wales, Australia",
+      "url": "https://au.linkedin.com/jobs/view/sales-manager-enterprise-australia-new-zealand-at-openai-4384012445",
+      "description": "",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "mistral-account-executive-enterprise-spain-madrid-77e5b2",
+      "title": "Account Executive, Enterprise, Spain - Madrid",
+      "company": "Mistral",
+      "location": "Madrid",
+      "url": "https://jobs.lever.co/mistral/80c5f091-29e1-4500-b6cc-862fc7801dd3",
+      "description": "About Mistral\u00a0\n\nAt Mistral AI, we believe in the power of AI to simplify tasks, save time, and enhance learning and creativity. Our technology is designed to integrate seamlessly into daily working life. \n\nWe democratize",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-account-executive-dach-f05e8f",
+      "title": "Account Executive - DACH",
+      "company": "Nebius AI",
+      "location": "Germany; Remote",
+      "url": "https://careers.nebius.com/?gh_jid=4660811101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-business-development-representative-nebius-token-f-efd6ac",
+      "title": "Business Development Representative - Nebius Token Factory",
+      "company": "Nebius AI",
+      "location": "Remote - United States",
+      "url": "https://careers.nebius.com/?gh_jid=4724510101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-partner-business-development-manager-isv-9aa23a",
+      "title": "Partner Business Development Manager - ISV ",
+      "company": "Nebius AI",
+      "location": "Paris, France; Remote; Remote - Europe; Stockholm, Sweden",
+      "url": "https://careers.nebius.com/?gh_jid=4766703101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-principal-business-development-physical-ai-b90338",
+      "title": "Principal, Business Development - Physical AI",
+      "company": "Nebius AI",
+      "location": "Remote - United States",
+      "url": "https://careers.nebius.com/?gh_jid=4773806101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-sales-operations-specialist-1b40fa",
+      "title": "Sales Operations Specialist",
+      "company": "Nebius AI",
+      "location": "Amsterdam, Netherlands; Remote - Europe",
+      "url": "https://careers.nebius.com/?gh_jid=4813946101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-senior-manager-sales-strategy-operations-apj-488c1e",
+      "title": "Senior Manager, Sales Strategy & Operations (APJ)",
+      "company": "Nebius AI",
+      "location": "Remote; Singapore",
+      "url": "https://careers.nebius.com/?gh_jid=4776000101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-senior-sales-engineer-219610",
+      "title": "Senior Sales Engineer ",
+      "company": "Nebius AI",
+      "location": "Remote",
+      "url": "https://careers.nebius.com/?gh_jid=4795940101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "nebius-ai-senior-sales-strategy-operations-specialist-emea-r-3a7927",
+      "title": "Senior Sales Strategy & Operations Specialist (EMEA region) ",
+      "company": "Nebius AI",
+      "location": "Remote",
+      "url": "https://careers.nebius.com/?gh_jid=4797580101",
+      "description": "&lt;div class=&quot;content-intro&quot;&gt;&lt;p&gt;&lt;strong data-stringify-type=&quot;bold&quot;&gt;Why work at Nebius&lt;br&gt;&lt;/strong&gt;Nebius is leading a new era in cloud computing to serve the global AI econ",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-worldwide-specialist-cloud-storage-data-ai-gtm-62d7f3",
+      "title": "Principal, Worldwide Specialist - Cloud Storage , Data & AI GTM, Data & AI GTM ",
+      "company": "AWS",
+      "location": "Arlington, Virginia, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3198254/principal-worldwide-specialist-cloud-storage-data-ai-gtm-data-ai-gtm",
+      "description": "We are hiring an accomplished Principal, WW Storage GTM Specialist to support the growth of AWS Storage services with a specific focus on high performance object storage workloads. As AWS continues to",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-program-manager-aws-data-ai-gtm-6cbf29",
+      "title": "Sr. Program Manager, AWS Data & AI GTM ",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3207955/sr-program-manager-aws-data-ai-gtm",
+      "description": "Are you passionate about improving the quality of business operations? Do you thrive in a fast-paced environment in which you have the opportunity to influence change? Would you like to enable change that",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-worldwide-specialist-sa-genai-data-ai-gtm-20dd1c",
+      "title": "Sr. Worldwide Specialist SA - GenAI , Data & AI GTM ",
+      "company": "AWS",
+      "location": "Dallas, Texas, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3192041/sr-worldwide-specialist-sa-genai-data-ai-gtm",
+      "description": "Do you want to help define the future of Go to Market (GTM) at AWS using Agentic AI? AWS Specialist Solutions Architects(SSAs) are technologists with deep domain-specific expertise, able to address advanced",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-director-aws-genai-solutions-architecture-data-ai-gtm-02d34d",
+      "title": "Director, AWS GenAI Solutions Architecture, Data & AI GTM ",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3157383/director-aws-genai-solutions-architecture-data-ai-gtm",
+      "description": "Are you passionate about developing impactful Artificial Intelligence (AI) strategies and novel customer solutions? Are you excited to engage with the AI community\u2014AI researchers, developers building AI",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-worldwide-specialist-solutions-architect-genai-data-ai-g-6a737c",
+      "title": "Worldwide Specialist Solutions Architect - GenAI, Data & AI GTM ",
+      "company": "AWS",
+      "location": "Irvine, California, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3199723/worldwide-specialist-solutions-architect-genai-data-ai-gtm",
+      "description": "Are you passionate about Artificial Intelligence, Machine Learning and Deep Learning? Are you passionate about helping customers build solutions leveraging the state-of-the-art AI/ML/DL tools on Amazon",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-worldwide-specialist-genai-ml-data-ai-gtm-f7770c",
+      "title": "Sr. Worldwide Specialist \u2013 GenAI/ML, Data & AI GTM",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3180217/sr-worldwide-specialist-genai-ml-data-ai-gtm",
+      "description": "Do you want to help define the future of Go to Market (GTM) at AWS using generative AI? You will be part of the core worldwide GenAI Models team, responsible for helping our customers build and deploy",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-worldwide-specialist-solutions-architect-genai-da-86f199",
+      "title": "Senior Worldwide Specialist Solutions Architect - GenAI, Data & AI GTM",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3190502/senior-worldwide-specialist-solutions-architect-genai-data-ai-gtm",
+      "description": "Are you passionate about Generative AI (GenAI)? Do you want to help define the future of Go to Market (GTM) at AWS using generative AI? In this role, you will help some of our largest customers build and",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-worldwide-specialist-solutions-architect-agenticai-data--0e2d82",
+      "title": "Worldwide Specialist Solutions Architect - AgenticAI, Data & AI GTM ",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3199726/worldwide-specialist-solutions-architect-agenticai-data-ai-gtm",
+      "description": "AWS Specialist Solutions Architects (SSAs) are technologists with expert level domain-specific knowledge.  They can solve our customer\u2019s most complex problems and scale their knowledge throughout our global",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-worldwide-partner-specialist-database-analytics-data--a866d0",
+      "title": "Sr. Worldwide Partner Specialist - Database & Analytics, Data & AI GTM",
+      "company": "AWS",
+      "location": "Mountain View, California, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3207949/sr-worldwide-partner-specialist-database-analytics-data-ai-gtm",
+      "description": "Role DescriptionThe Partner GTM organization within AWS is seeking a Partner Programs Strategy Lead to architect, scale, and orchestrate the end-to-end partner journey for Data & AI across AWS. This role",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-gtm-acceleration-strategic-planning-applied-ai-bf58c8",
+      "title": "Principal GTM Acceleration, Strategic Planning, Applied AI Solutions GTM ",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3186267/principal-gtm-acceleration-strategic-planning-applied-ai-solutions-gtm",
+      "description": "Our vision in the Applied AI Solutions Go-To-Market team is to be a leading provider of AI and Agentic business applications, leveraging Amazon's unique experience and expertise, used by millions of companies",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-worldwide-partner-specialist-genai-agentcore-data-ai--b27f72",
+      "title": "Sr. Worldwide Partner Specialist, GenAI - AgentCore, Data & AI Partner GTM",
+      "company": "AWS",
+      "location": "San Francisco, California, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3205723/sr-worldwide-partner-specialist-genai-agentcore-data-ai-partner-gtm",
+      "description": "Amazon Web Services (AWS) is seeking a top-tier Partner Development Specialist to drive growth in our Bedrock AgentCore business through strategic partnerships. As part of the Worldwide Data & AI GTM team,",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-gtm-ssa-analytics-emea-gtm-data-and-ai-specialists-so-a401a8",
+      "title": "Sr GTM SSA Analytics, EMEA GTM Data and AI Specialists Solutions Architecture",
+      "company": "AWS",
+      "location": "Tel Aviv-Yafo, Tel Aviv, ISR",
+      "url": "https://www.amazon.jobs/en/jobs/3200095/sr-gtm-ssa-analytics-emea-gtm-data-and-ai-specialists-solutions-architecture",
+      "description": "Are you an expert in modern data and analytic technology, such as distributed database, data warehouse, big data, stream computing, or analytic and data science? Do you have machine learning, data scientist",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-go-to-market-specialist-ai-ml-aws-5b2381",
+      "title": "Principal Go-To-Market Specialist, AI/ML, AWS",
+      "company": "AWS",
+      "location": "SGP",
+      "url": "https://www.amazon.jobs/en/jobs/3189051/principal-go-to-market-specialist-ai-ml-aws",
+      "description": "Are you a customer-obsessed builder with a passion for helping customers achieve their full potential through AI? Do you have the business savvy, technical background, and sales skills necessary to drive",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-gtm-acceleration-lead-applied-ai-solutions-412c13",
+      "title": "GTM Acceleration Lead, Applied AI Solutions",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3197810/gtm-acceleration-lead-applied-ai-solutions",
+      "description": "This position is part of the AWS Specialist and Partner Organization (ASP). Specialists own the end-to-end go-to-market strategy for their respective technology domains, providing the business and technical",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-go-to-market-specialist-ai-ml-aws-2b4c93",
+      "title": "Senior Go-To-Market Specialist, AI/ML, AWS",
+      "company": "AWS",
+      "location": "Tokyo, JPN",
+      "url": "https://www.amazon.jobs/en/jobs/3182592/senior-go-to-market-specialist-ai-ml-aws",
+      "description": "Are you a customer-obsessed builder with a passion for helping customers achieve their full potential through AI? Do you have the business savvy, technical background, and sales skills necessary to drive",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-anz-ai-leader-aws-global-sales-ags-4d3c5c",
+      "title": "ANZ AI Leader \u2013 AWS Global Sales (AGS) ",
+      "company": "AWS",
+      "location": "Sydney, New South Wales, AUS",
+      "url": "https://www.amazon.jobs/en/jobs/3195115/anz-ai-leader-aws-global-sales-ags",
+      "description": "The ANZ AI Leader creates and sets the vision to drive AI/ML and Agentic AI adoption across the ANZ region. Leading a team of Specialists, you will partner with and influence local sales teams to accelerate",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-go-to-market-specialist-genai-ml-aws-c01ae1",
+      "title": "Principal Go-To-Market Specialist, GenAI/ML, AWS",
+      "company": "AWS",
+      "location": "Seoul, KOR",
+      "url": "https://www.amazon.jobs/en/jobs/3168313/principal-go-to-market-specialist-genai-ml-aws",
+      "description": "Are you a customer-obsessed builder with a passion for helping customers achieve their full potential through Generative AI and Machine Learning? Do you have the business savvy, technical background, and",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-manager-sales-7510d1",
+      "title": "Sales Manager, Sales",
+      "company": "AWS",
+      "location": "San Jose, San Jose, CRI",
+      "url": "https://www.amazon.jobs/en/jobs/3169221/sales-manager-sales",
+      "description": "About the RoleAmazon Veeqo is seeking an exceptional Manager to lead and scale our high-performing team of 7 Mid-Market Account Representatives. This leader will be responsible for driving team performance,",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-partner-sales-manager-partner-sales-46694d",
+      "title": "Partner Sales Manager, Partner Sales",
+      "company": "AWS",
+      "location": "Perth, Western Australia, AUS",
+      "url": "https://www.amazon.jobs/en/jobs/3201944/partner-sales-manager-partner-sales",
+      "description": "We're seeking an experienced Partner Sales Manager (PSM) to drive the development, incubation and orchestration of large, complex deals involving multiple partners and partner types spanning ISV, SI and",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-assistant-11bb27",
+      "title": "Sales Assistant",
+      "company": "AWS",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/3159901/sales-assistant",
+      "description": "Amazon Toys category is an exciting growth engine for the most selection rich business of Amazon OHL and offers a taste of different categories both long tail in nature as well as head heavy. It also helps",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-sales-compensation-analyst-ads-sales-incentives-df6697",
+      "title": "Sr. Sales Compensation Analyst, Ads Sales Incentives ",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3201348/sr-sales-compensation-analyst-ads-sales-incentives",
+      "description": "Play a crucial role in driving sales performance at Amazon Advertising. In this role, you'll ensure accurate and timely compensation for our sales teams through meticulous data validation, revenue attribution,",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-account-executive-sales-f73de9",
+      "title": "Account Executive, Sales",
+      "company": "AWS",
+      "location": "San Jose, San Jose, CRI",
+      "url": "https://www.amazon.jobs/en/jobs/3008204/account-executive-sales",
+      "description": "Our VisionSupport eCommerce sellers in getting the most out of Veeqo, Amazon's leading shipping and inventory solution, by providing expert guidance, onboarding assistance, and ongoing platform support.Your",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-account-manager-fashion-sales-advertising-account--f054b6",
+      "title": "Sales Account Manager, Fashion, Sales, Advertising, & Account Management",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3175151/sales-account-manager-fashion-sales-advertising-account-management",
+      "description": "Amazon Ads operates at the intersection of eCommerce and advertising, offering a rich array of advertising solutions. We partner with advertisers to reach Amazon customers on Amazon.com, across our other",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-head-of-jp-adtech-sales-adtech-sales-77cdce",
+      "title": "Head of JP AdTech Sales, AdTech Sales",
+      "company": "AWS",
+      "location": "Tokyo, JPN",
+      "url": "https://www.amazon.jobs/en/jobs/3131970/head-of-jp-adtech-sales-adtech-sales",
+      "description": "Amazon Advertising is experiencing unprecedented growth and represents a key strategic focus for Amazon globally. We are seeking an experienced manager to lead and develop our Ad Tech Sales organization",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-sales-compensation-analyst-ads-sales-incentive-compen-9148b3",
+      "title": "Sr. Sales Compensation Analyst, Ads Sales Incentive Compensation",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3178153/sr-sales-compensation-analyst-ads-sales-incentive-compensation",
+      "description": "The Amazon Advertising Sales Incentive Compensation team is seeking a Sr. Sales Compensation Analyst to drive analytics throughout the Ads incentive compensation program. The charter for our team is to",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-account-manager-3d0091",
+      "title": "Sales Account Manager",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3126735/sales-account-manager",
+      "description": "Amazon Ads operates at the intersection of eCommerce and advertising, offering a rich array of advertising solutions. We partner with advertisers to reach Amazon customers on Amazon.com, across our other",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-compensation-design-specialist-ads-sales-incentive-98d66a",
+      "title": "Sales Compensation Design Specialist, Ads Sales Incentive Compensation",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3205429/sales-compensation-design-specialist-ads-sales-incentive-compensation",
+      "description": "Amazon Advertising is seeking a Sales Compensation Design, Specialist for its rapidly growing Global Advertising business. The ideal candidate is curious with strong business acumen, a relationship builder",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-sales-operations-manager-sales-product-engineering-op-7b70b5",
+      "title": "Sr. Sales Operations Manager , Sales Product Engineering & Operations",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3197260/sr-sales-operations-manager-sales-product-engineering-operations",
+      "description": "We seek an analytical thinker who has experience developing, executing, and refining growth strategies to lead a newly created ad sales strategy and planning function. Advertisers leverage Amazon\u2019s data-driven",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-manager-edtech-25b8e4",
+      "title": "Sales Manager, EdTech",
+      "company": "AWS",
+      "location": "Austin, Texas, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3034256/sales-manager-edtech",
+      "description": "As an EdTech Sales Manager you will lead a team of Account Managers working with emerging technology companies and startups building innovative products serving the global Education market. If you have",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-market-manager-dc-west-sales-marketing-offline-field-sal-76dc49",
+      "title": "Market Manager - DC West, Sales & Marketing - Offline Field Sales",
+      "company": "AWS",
+      "location": "Virginia, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3170987/market-manager-dc-west-sales-marketing-offline-field-sales",
+      "description": "*Please note this role IS NOT remote, but rather not tied to an Amazon corporate office*As a Market Manager, you will own a territory of offline retail stores, managing the Amazon in-store experience and",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-account-manager-large-customer-sales-amazon-ads-d89079",
+      "title": "Sales Account Manager, Large Customer Sales, Amazon Ads",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/10371318/sales-account-manager-large-customer-sales-amazon-ads",
+      "description": "Amazon Advertising operates at the intersection of advertising and e-commerce, and offers advertisers a rich array of media solutions across Amazon\u2019s mobile and desktop websites, proprietary devices including",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-manager-sales-account-management-large-customer-sales-am-e45f74",
+      "title": "Manager, Sales Account Management, Large Customer Sales, Amazon Ads",
+      "company": "AWS",
+      "location": "Tokyo, JPN",
+      "url": "https://www.amazon.jobs/en/jobs/3205740/manager-sales-account-management-large-customer-sales-amazon-ads",
+      "description": "Amazon Ads\u3067\u3001\u9577\u671f\u7684\u306a\u30d6\u30e9\u30f3\u30c9\u80b2\u6210\u3092\u4e3b\u5c0e\u3057\u3066\u307f\u307e\u305b\u3093\u304b\u3002\u79c1\u305f\u3061\u306f\u3001EC\u30b5\u30a4\u30c8\u3068\u3057\u3066\u306eAmazon.co.jp\u3060\u3051\u3067\u306a\u304f\u3001Prime Video\u3001Fire TV\u3092\u306f\u3058\u3081\u3068\u3057\u305f\u5e45\u5e83\u3044\u30e1\u30c7\u30a3\u30a2\u30bd\u30ea\u30e5\u30fc\u30b7\u30e7\u30f3\u3092\u901a\u3058\u3066\u3001\u304a\u5ba2\u69d8\u8996\u70b9\u306b\u7acb\u3063\u305f\u5e83\u544a\u4f53\u9a13\u3092\u63d0\u4f9b\u3057\u3066\u3044\u307e\u3059\u3002\u304a\u5ba2\u69d8\u306e\u30cb\u30fc\u30ba\u3092\u7b2c\u4e00\u306b\u8003\u3048\u305f\u5e83\u544a\u30d3\u30b8\u30cd\u30b9\u3067\u6025\u6210\u9577\u3092\u7d9a\u3051\u3066\u3044\u308b\u30c1\u30fc\u30e0\u306b\u52a0\u308f\u308a\u305f\u3044\u3068\u304a\u8003\u3048\u306a\u3089\u3001\u3053\u306e\u6a5f\u4f1a\u304c\u3074\u3063\u305f\u308a\u3067\u3059\u3002\u79c1\u305f\u3061\u306f\u3001\u5927\u578b\u5e83\u544a\u4e3b\u69d8\u5411\u3051\u5e83\u544a\u4e8b\u696d\u30c1\u30fc\u30e0\u306e\u30bb\u30fc\u30eb\u30b9\u30de\u30cd\u30fc\u30b8\u30e3",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-associate-account-executive-d4d07e",
+      "title": "Associate Account Executive",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3207831/associate-account-executive",
+      "description": "This is not your typical Sales Development role. Do you crave an environment that is fast-paced and highly innovative? Do you aspire to continuously learn and grow? Join a growing team at the market leader",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-account-executive-growth-a1d43f",
+      "title": "Account Executive, Growth",
+      "company": "AWS",
+      "location": "Culver City, California, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3183268/account-executive-growth",
+      "description": "Amazon Advertising operates at the intersection of eCommerce and advertising, offering a rich array of digital display advertising solutions with the goal of helping our customers find and discover anything",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-associate-account-executive-a4da52",
+      "title": "Associate Account Executive ",
+      "company": "AWS",
+      "location": "Arlington, Virginia, USA",
+      "url": "https://www.amazon.jobs/en/jobs/10372433/associate-account-executive",
+      "description": "This is not your typical Sales Development role. Do you crave an environment that is fast-paced and highly innovative? Do you aspire to continuously learn and grow? Join a growing team at the market leader",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-account-executive-6dac57",
+      "title": "Principal Account Executive",
+      "company": "AWS",
+      "location": "Riyadh, SAU",
+      "url": "https://www.amazon.jobs/en/jobs/3187852/principal-account-executive",
+      "description": "Are you a builder, who thrives where leadership meets growth ambition and world-class technology? AWS is hiring a Principal Account Executive to lead transformative deals and redefine how Strategic Accounts",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-account-executive-cpg-beauty-e0fb7d",
+      "title": "Account Executive, CPG Beauty",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3184292/account-executive-cpg-beauty",
+      "description": "As an Account Executive in the CPG vertical you will use your experience selling digital advertising solutions to brands and their ad agencies to successfully grow the category\u2019s US revenues. With your",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-account-executive-cpg-ec56f6",
+      "title": "Senior Account Executive, CPG",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3199452/senior-account-executive-cpg",
+      "description": "Amazon Ads' Large Customer Sales (LCS) organization is seeking a Senior Account Executive (L6) to own and grow a portfolio of large, complex advertising clients and prospects. In this role, you will serve",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-account-executive-comsec-acq-7b33ac",
+      "title": "Account Executive, ComSec ACQ",
+      "company": "AWS",
+      "location": "Austin, Texas, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3175309/account-executive-comsec-acq",
+      "description": "Come be a part of a rapidly expanding $35 billion dollar global business. At Amazon Business, a fast-growing startup passionate about building solutions, we set out every day to innovate and disrupt the",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-account-executive-amazon-ads-1403bc",
+      "title": "Account Executive , Amazon Ads",
+      "company": "AWS",
+      "location": "Amsterdam, North Holland, NLD",
+      "url": "https://www.amazon.jobs/en/jobs/3205091/account-executive-amazon-ads",
+      "description": "Amazon Ads operates at the intersection of commerce, entertainment and advertising, offering unique advertising products, enterprise ad tech, and creative, format and measurement solutions. We offer advertisers",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-account-executive-cpg-a827db",
+      "title": " Sr. Account Executive, CPG",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3175292/sr-account-executive-cpg",
+      "description": "As a Sr. Account Executive in the CPG vertical you will use your experience selling digital advertising solutions to brands and their ad agencies to successfully grow the category\u2019s US revenues. With your",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-account-executive-grocery-20c7bb",
+      "title": "Sr. Account Executive, Grocery",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3187646/sr-account-executive-grocery",
+      "description": "Amazon Advertising is dedicated to driving measurable outcomes for brand advertisers, agencies, authors, and entrepreneurs. Our ad solutions\u2014including sponsored, display, video, and custom ads\u2014leverage",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-account-executive-hardlines-2d41d3",
+      "title": "Senior Account Executive, Hardlines",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3199449/senior-account-executive-hardlines",
+      "description": "As a Sr. Account Executive in the Hardlines vertical you will use your experience selling digital advertising solutions to brands and their ad agencies to successfully grow the category\u2019s US revenues.",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-account-executive-twitch-658717",
+      "title": "Senior Account Executive , Twitch",
+      "company": "AWS",
+      "location": "Santa Monica, California, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3178287/senior-account-executive-twitch",
+      "description": "Twitch is the world\u2019s biggest live streaming service, with global communities built around gaming, entertainment, music, sports, cooking, and more. It is where thousands of communities come together for",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-enterprise-business-development-eero-business--80bd0e",
+      "title": "Principal, Enterprise Business Development, eero Business Development",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3145118/principal-enterprise-business-development-eero-business-development",
+      "description": "As the Principal, Enterprise Business Development, you will contribute to driving revenue generation for eero\u2019s newly formed business segment. You\u2019ll build and manage a enterprise sales pipeline, also",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-intern-aws-138485",
+      "title": "Business Development Intern, AWS",
+      "company": "AWS",
+      "location": "Hong Kong, Hong Kong SAR, HKG",
+      "url": "https://www.amazon.jobs/en/jobs/3190062/business-development-intern-aws",
+      "description": "Amazon Web Services (AWS) is guided by customer obsession, pace of innovation, commitment to operational excellence, and long-term thinking. By democratizing technology for nearly two decades and making",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-proserve-business-development-manager-5a2ccf",
+      "title": "ProServe Business Development Manager ",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3167491/proserve-business-development-manager",
+      "description": "The Amazon Web Services (AWS) Professional Services (ProServe) team is seeking a dynamic Business Development Manager to join our team. In this role, you'll work closely with your ProServe Enterprise Technologist",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-strategy-and-business-development-ctv-amazon-a-ddd6f0",
+      "title": "Principal, Strategy and Business Development, CTV, Amazon Ads Strategy & Business Development",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3149909/principal-strategy-and-business-development-ctv-amazon-ads-strategy-business-development",
+      "description": "Amazon Ads Business Development is seeking a professional to join the Amazon Ads Strategy and BD team to focus on leading strategic initiative, deals and partnerships within the Video and Streaming TV",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-specialist-amazon-512258",
+      "title": "Business Development Specialist, Amazon",
+      "company": "AWS",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/3207540/business-development-specialist-amazon",
+      "description": "Are you customer obsessed, flexible, smart and analytical, strategic yet execution focused and passionate about e-commerce? Are you an experienced, entrepreneurial leader with a strong work ethic? If yes,",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-business-development-premium-support-aws-premium-supp-9c323b",
+      "title": "Sr. Business Development, Premium Support, AWS Premium Support Business Development",
+      "company": "AWS",
+      "location": "SGP",
+      "url": "https://www.amazon.jobs/en/jobs/3186962/sr-business-development-premium-support-aws-premium-support-business-development",
+      "description": "AWS is one of Amazon\u2019s fastest growing businesses, servicing customers in more than 190 countries, reshaping the way global enterprises consume information technology and powering the developers who are",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-leader-finops-3ae906",
+      "title": "Business Development Leader, FinOps ",
+      "company": "AWS",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/3199658/business-development-leader-finops",
+      "description": "We are seeking a strategic Principal Business Development Leader to drive customer acquisition and account growth for our Finance as a Service (FaaS) offerings. This role requires a customer-obsessed leader",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-business-development-manager-8041f3",
+      "title": "Principal Business Development Manager",
+      "company": "AWS",
+      "location": "Hong Kong, Hong Kong SAR, HKG",
+      "url": "https://www.amazon.jobs/en/jobs/3175750/principal-business-development-manager",
+      "description": "About Amazon Web Services Since 2006, Amazon Web Services has been the world\u2019s most comprehensive and broadly adopted cloud. AWS has been continually expanding its services to support virtually any workload,",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-corporate-business-development-manager-12-month-f-fec28c",
+      "title": "Senior Corporate Business Development Manager (12-month FTC), Corporate Business Development",
+      "company": "AWS",
+      "location": "London, England, GBR",
+      "url": "https://www.amazon.jobs/en/jobs/3208319/senior-corporate-business-development-manager-12-month-ftc-corporate-business-development",
+      "description": "**This role is a 12-month fixed-term contract in London**Amazon is seeking a highly motivated and experienced individual to join the Corporate Business Development (CorpBD) International team, focused",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-technical-business-development-amz10869-17-e416a8",
+      "title": "Principal Technical Business Development - AMZ10869.17",
+      "company": "AWS",
+      "location": "Santa Monica, California, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3163408/principal-technical-business-development-amz10869-17",
+      "description": "Employer: Amazon.com Services LLCPosition: Principal Technical Business Development (multiple positions available)Location: Santa Monica, CA Multiple Positions Available:(1)\tDrive transportation and logistics",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-lead-amazon-shipping-f92528",
+      "title": "Business Development Lead , Amazon Shipping",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3113506/business-development-lead-amazon-shipping",
+      "description": "Amazon is launching a new, fast-growing business aimed at transforming the shipping and logistics industry.  For the first time we\u2019re making our shipping and logistics network available to brands \u2014 and",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-manager-au-payments-d8684e",
+      "title": "Business Development Manager, AU Payments ",
+      "company": "AWS",
+      "location": "Sydney, New South Wales, AUS",
+      "url": "https://www.amazon.jobs/en/jobs/3187771/business-development-manager-au-payments",
+      "description": "Are you comfortable managing and growing payments and banking partnerships? Do you want to support in the development of new revenue streams for Amazon that will have a significant and measurable impact",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-business-development-manager-amazon-cd7a26",
+      "title": "Sr Business Development Manager, Amazon",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3205945/sr-business-development-manager-amazon",
+      "description": "Amazon is seeking an ambitious, experienced talent to help drive the growth of Fashion & Fitness brands across North America. With your strong background in business management and relationships, you\u2019ll",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-associate-private-brands-3fe37b",
+      "title": "Business Development Associate , Private Brands",
+      "company": "AWS",
+      "location": "Bengaluru, Karnataka, IND",
+      "url": "https://www.amazon.jobs/en/jobs/3192523/business-development-associate-private-brands",
+      "description": "About the Role  Are you customer obsessed, flexible, smart and analytical, strategic yet execution focused and passionate about e-commerce? Are you an experienced, entrepreneurial leader willing to be",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-senior-business-development-manager-amazon-business-cana-74edd9",
+      "title": "Senior Business Development Manager, Amazon Business Canada",
+      "company": "AWS",
+      "location": "Toronto, Ontario, CAN",
+      "url": "https://www.amazon.jobs/en/jobs/3106656/senior-business-development-manager-amazon-business-canada",
+      "description": "Come and help us build the future of B2B E-commerce in a rapidly expanding global business! Amazon is looking for entrepreneurial people to build and execute our B2B product selection and pricing strategy",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sales-operations-manager-amazon-devices-business-develop-60f988",
+      "title": "Sales Operations Manager, Amazon Devices - Business Development, Amazon Devices & Services - Business Development",
+      "company": "AWS",
+      "location": "Seattle, Washington, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3189070/sales-operations-manager-amazon-devices-business-development-amazon-devices-services-business-development",
+      "description": "The Amazon Devices & Services Business Development organization is looking for a results-oriented, data-driven Sales Operations Manager to support operational excellence across our Tech Licensing Business",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-sr-business-development-lead-amazon-shipping-900590",
+      "title": "Sr. Business Development Lead , Amazon Shipping",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3201343/sr-business-development-lead-amazon-shipping",
+      "description": "Amazon Shipping is building a high-growth business designed to transform how the world thinks about logistics. We\u2019re rapidly expanding our shipping and delivery services to brands and merchants across",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-principal-strategy-and-business-development-platform-and-a66a7c",
+      "title": "Principal, Strategy and Business Development, Platform and AI Partnerships, Amazon Ads Strategy & Business Development",
+      "company": "AWS",
+      "location": "New York, New York, USA",
+      "url": "https://www.amazon.jobs/en/jobs/3151422/principal-strategy-and-business-development-platform-and-ai-partnerships-amazon-ads-strategy-business-development",
+      "description": "Amazon Ads Business Development is seeking an experienced Principal to join our Strategy and BD Team. You will play a crucial role in leading strategic initiatives and partnerships that advance our AI-driven",
+      "date_found": "2026-03-23"
+    },
+    {
+      "id": "aws-business-development-representative-web3-fsi-dnb-63ceb6",
+      "title": "Business Development Representative, Web3, FSI DNB",
+      "company": "AWS",
+      "location": "Hong Kong, Hong Kong SAR, HKG",
+      "url": "https://www.amazon.jobs/en/jobs/3201777/business-development-representative-web3-fsi-dnb",
+      "description": "AWS Global Sales drives adoption of the AWS cloud worldwide, enabling customers of all sizes to innovate and expand in the cloud. Our team empowers every customer to grow by providing tailored service,",
+      "date_found": "2026-03-23"
+    }
+  ]
 }

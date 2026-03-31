@@ -1,6 +1,29 @@
 {
-  "companies": ["NVIDIA", "Google", "Microsoft", "OpenAI", "Anthropic", "Poolside", "Mistral", "Cohere", "Nebius AI"],
-  "roles": ["AI GTM", "Sales", "Account Executive", "Solutions Engineer", "Business Development", "AI Sales", "Field Sales", "Enterprise Sales"],
-  "locations": ["Spain", "Remote Europe"],
-  "email": "eordaxd@gmail.com"
+  "companies": [
+    "Google",
+    "NVIDIA",
+    "AWS",
+    "Anthropic",
+    "OpenAI",
+    "Sierra",
+    "Mistral AI",
+    "ByteDance",
+    "Cohere",
+    "Databricks",
+    "Datarobot",
+    "Nebius"
+  ],
+  "email": "eordaxd@gmail.com",
+  "locations": [
+    "Madrid"
+  ],
+  "roles": [
+    "AI GTM",
+    "Sales",
+    "Account Executive",
+    "Business Development",
+    "AI Sales",
+    "Field Sales",
+    "Enterprise Sales"
+  ]
 }

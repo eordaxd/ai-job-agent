@@ -233,8 +233,17 @@ def _try_platforms(company, keywords, locations, log):
 
 # ── Company-specific scrapers ─────────────────────────────────────────────────
 
+def _primary_loc(locations):
+    """First non-remote location string to use in API queries."""
+    for loc in locations:
+        if "remote" not in loc.lower():
+            return loc
+    return locations[0] if locations else "Madrid"
+
+
 def _google(keywords, locations, log):
     """Try Google Careers API; fall back to LinkedIn guest search."""
+    loc_q = _primary_loc(locations)
     for url_tpl in [
         "https://careers.google.com/api/jobs/list?page_size=20&q={q}&location={loc}&sort_by=date",
         "https://careers.google.com/api/jobs/list/?page_size=20&q={q}&location={loc}",
@@ -242,7 +251,7 @@ def _google(keywords, locations, log):
         try:
             url  = url_tpl.format(
                 q=urllib.parse.quote(" ".join(keywords[:3])),
-                loc=urllib.parse.quote("Spain"),
+                loc=urllib.parse.quote(loc_q),
             )
             data = _get(url)
             jobs = data.get("jobs", [])
@@ -265,10 +274,11 @@ def _google(keywords, locations, log):
 def _microsoft(keywords, locations, log):
     """Try Microsoft Careers API; fall back to LinkedIn guest search."""
     found = []
+    loc_q = _primary_loc(locations)
     try:
         for kw in keywords[:4]:
             params = urllib.parse.urlencode({
-                "q": kw, "l": "Spain",
+                "q": kw, "l": loc_q,
                 "pg": 1, "pgSz": 20, "lc": "en_US",
             })
             url  = f"https://gcsservices.careers.microsoft.com/search/api/v1/search?{params}"
@@ -328,9 +338,11 @@ def _nvidia(keywords, locations, log):
 def _amazon(keywords, locations, log):
     """Amazon Jobs public API (covers AWS roles)."""
     found = []
+    primary = _primary_loc(locations)
+    loc_queries = list(dict.fromkeys([primary, "Madrid"]))  # deduplicated
     try:
         for kw in keywords[:4]:
-            for loc_q in ["Spain", "Madrid"]:
+            for loc_q in loc_queries:
                 params = urllib.parse.urlencode({
                     "base_query": kw, "loc_query": loc_q, "result_limit": 20,
                 })
@@ -362,8 +374,9 @@ def _linkedin_search(company, keywords, locations, log):
     """
     found = []
     try:
+        li_locs = locations[:2] if locations else ["Madrid"]
         for kw in keywords[:2]:
-            for loc in ["Spain", "Remote"]:
+            for loc in li_locs:
                 params = urllib.parse.urlencode({
                     "keywords":  f"{company} {kw}",
                     "location":  loc,
@@ -440,13 +453,17 @@ def run_scan(progress_callback=None):
 
     # Dispatch table for companies with confirmed / well-known job boards
     KNOWN = {
-        "Anthropic": lambda: _greenhouse("Anthropic", "anthropic", keywords, locations, log) or [],
-        "Mistral":   lambda: _lever("Mistral",   "mistral",   keywords, locations, log) or [],
-        "Google":    lambda: _google(keywords, locations, log),
-        "Microsoft": lambda: _microsoft(keywords, locations, log),
-        "NVIDIA":    lambda: _nvidia(keywords, locations, log),
-        "AWS":       lambda: _amazon(keywords, locations, log),
-        "Amazon":    lambda: _amazon(keywords, locations, log),
+        "Anthropic":  lambda: _greenhouse("Anthropic",  "anthropic", keywords, locations, log) or [],
+        "Mistral":    lambda: _lever("Mistral",    "mistral",   keywords, locations, log) or [],
+        "Mistral AI": lambda: _lever("Mistral AI", "mistral",   keywords, locations, log) or [],
+        "Google":     lambda: _google(keywords, locations, log),
+        "Microsoft":  lambda: _microsoft(keywords, locations, log),
+        "NVIDIA":     lambda: _nvidia(keywords, locations, log),
+        "AWS":        lambda: _amazon(keywords, locations, log),
+        "Amazon":     lambda: _amazon(keywords, locations, log),
+        "Databricks": lambda: _greenhouse("Databricks", "databricks", keywords, locations, log) or [],
+        "Datarobot":  lambda: _greenhouse("Datarobot",  "datarobot",  keywords, locations, log) or [],
+        "Nebius":     lambda: _ashby("Nebius", "nebius", keywords, locations, log) or [],
     }
 
     for company in companies:
